@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/tools.css">
+    <title> Tools </title>
+    <script src="../js/tools.js"></script>
+</head>
+<body>
+
+<div class= "container">
+       
+<div class= "content">
+            
+<div class="dropdown" style="float:right;">
+    <button class="dropbtn">Menu</button>
+    <div class="dropdown-content">
+    <a href="../index.html">Home Page</a>
+    <a href="../html/career.html">Career Paths</a>
+    <a href="../html/tools.html">Tools</a>
+    <a href="../html/aboutus.html">About Us</a>
+    <a href="../html/contact.html">Contact Us</a>
+</div>
+</div>
+</div>
+   
+
+   
+    
+<main>
+<br>
+<br>
+<br>
+<br>
+<section class="presentation">
+            <div class="introduction">
+            
+
+  <form>
+<div>
+<h2> How long will it take?<h2>
+ </div>
+ <label for="career">Which career are you pursuing?:</label>
+  <select id="career" name="career">
+    <option value="150">Data Analyst</option>
+    <option value="200">Data Engineer</option>
+    <option value="250">Data Miner</option>
+    <option value="300">Data Scientist</option>
+    <option value="350">Data Specilaist</option>
+
+  </select>
+     <br/>
+    <label for="hr">Hours per week:</label>
+   <input type="number" name="hr" value="10">
+     <br/>
+  
+<input type="button" value="Calculate" onclick="count(this.form)" >
+
+</form>
+
+<div>
+<p id="demo2"></p>
+</div> 
+
+ </div>
+     
+<div class="cover">
+<img src="../img/pictures/accomp.png" alt="">
+                </div>
+            </div>          
+        </section>
+        
+
+<section class="presentation">
+            <div class="introduction">
+              
+<form>
+<div>
+<h2> Don't know where to start?<h2>
+ </div>
+  <p>Please select your level:</p>
+<form action="/action_page.php">
+ <select id="level" name="level">
+    <option value="3">Beginner</option>
+    <option value="5">Intermediate</option>
+    <option value="7">Expert</option>
+ 
+
+  </select>
+  <input type="button" name="hr" value="click here"  onclick="getRandomInt(this.form)" >
+
+
+
+</form> 
+
+
+
+
+<div><p  id="demo"></p>
+</div>     
+          </div>
+            <div class="cover">
+                <img src="../img/pictures/education.PNG" alt="">
+                </div>
+            </div>          
+        </section>
+
+
+
+
+
+<div><p  id="demo"></p>
+</div>     
+
+<section class="presentation">
+            <div class="introduction">
+             
+ <form>
+<div>
+<h2> How much will you earn?<h2>
+ </div>
+  <label for="career">Which career are you pursuing?:</label>
+  <select id="career" name="career">
+    <option value="10000">Data Analyst</option>
+    <option value="12000">Data Engineer</option>
+    <option value="14000">Data Miner</option>
+    <option value="16000">Data Scientist</option>
+    <option value="17000">Data Specilaist</option>
+
+  </select>
+     <br/>
+    <label for="hr">How many years you'll work?</label>
+   <input type="number" name="year" value="5">
+     <br/>
+  
+<input type="button" value="Calculate" onclick="wage(this.form)" >
+
+</form>
+
+<div>
+<p id="demo3"></p>
+</div> 
+
+ </div>
+     
+<div class="cover">
+<img src="../img/pictures/wage.png" alt="">
+                </div>
+            </div>          
+        </section>
+    </main>
+<div class="footer">
+    <div class="inner_footer">
+        <div class="logo_container">
+            <img src="../img/logo.png">
+        </div>
+        <div class="footer_third">
+  <h1>More About Us</h1>
+            <a href="#">Data Force</a>
+            <a href ="#">Our Partners</a>            
+        </div>
+        <div class="footer_third">
+            <h1>Support</h1>
+            <a href="#">Privacy Policy</a>
+            <a href ="#">Our Terms and Conditions</a>            
+        </div>       
+        <div class="footer_third">
+ 
+            <span>
+                <br>
+                © Data Force <br>
+                Cibali, Kadir Has Cd.,<br>
+                34083 Cibali / Fatih/Fatih/İstanbul<br>
+            </span>
+        </div>       
+    </div>
+</div>
+</body>
+</html>
