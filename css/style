@@ -1,0 +1,101 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+
+
+}
+.container{
+     height: 100vh;
+     width: 100%;
+     background-image: url('../img/homepage.jpg');
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     
+}
+.content{
+    width: 88%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.content .logo{
+    width: 150px;
+    margin-top: 50px;
+}
+.content hr{
+    border: none;
+    height: 6px;
+    max-width: 280px;
+    margin-top: 8px;
+    background: #ffalal;
+}
+.content h1{
+    font-size: 100px;
+    font-weight: 100;
+    color: White;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+    line-height: 120px;
+}
+.content .btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 18px 34px;
+    border-radius: inline-block;
+    margin-top: auto;
+    margin: 10px;
+}
+.content .btn{
+    background: #ffalal;
+    border-color: white;
+    color: white;
+    transition: 0.05s;
+    
+}
+.btn2{
+    float: inherit;
+}
+.sidebar{
+    width: 100%;
+    max-width: 850px;
+    height: 100%;
+    background: rgba(39, 69, 238, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    backdrop-filter: blur(1px);
+}
+.btn{
+    border-radius: 40px;
+}
+.btn:hover{
+    background-color: indianred;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
