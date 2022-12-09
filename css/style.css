@@ -8,7 +8,7 @@
 .container{
      height: 100vh;
      width: 100%;
-     background-image: url('/main/img/homepage.jpg');
+     background-image: url('../img/homepage.jpg');
      background-size: cover;
      background-position: center;
      position: relative;
@@ -78,24 +78,3 @@
     background-color: indianred;
     transition: 0.5s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
