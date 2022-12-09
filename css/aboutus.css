@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding: 0;
+    font-weight: 100;
+    background: url(../img/aboutus.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    height: 50vh;
+    width: 50%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+    
+}
+.container h1{
+    color: white;
+    margin-top: 50px;
+}
+.container p{
+    color: white;
+    margin-top: 60px;
+    font-size: large;
+     
+}
+   .dropbtn {
+    background-color: transparent;
+    color: #fff;
+    padding: 16px;
+    font-size: 20px;
+    border: 5px solid #fff;
+    cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute;
+  right: 0;
+  background-color: black;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 26px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #403e3eab}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+
